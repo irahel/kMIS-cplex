@@ -1,0 +1,109 @@
+Default variable names x1, x2 ... being created.
+Default row names c1, c2 ... being created.
+Tried aggregator 1 time.
+Reduced MIP has 1479 rows, 110 columns, and 3011 nonzeros.
+Reduced MIP has 110 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (3.24 ticks)
+Found incumbent of value 0.000000 after 0.00 sec. (4.06 ticks)
+Probing fixed 18 vars, tightened 0 bounds.
+Probing time = 0.00 sec. (0.52 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 563 rows and 18 columns.
+Reduced MIP has 916 rows, 92 columns, and 1885 nonzeros.
+Reduced MIP has 92 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (2.06 ticks)
+Probing time = 0.00 sec. (0.35 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 916 rows, 92 columns, and 1885 nonzeros.
+Reduced MIP has 92 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.87 ticks)
+Probing time = 0.00 sec. (0.35 ticks)
+Clique table members: 1161.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.00 sec. (3.44 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            0.0000       37.0000              --- 
+      0     0       18.8364    92        0.0000       18.8364      145     --- 
+      0     0       16.8000    88        0.0000  Cliques: 329      159     --- 
+*     0+    0                            1.0000       16.8000              --- 
+      0     0       16.2312    88        1.0000       Cuts: 3      174     --- 
+      0     0       16.2029    88        1.0000   ZeroHalf: 1      183     --- 
+      0     0       16.1352    88        1.0000   ZeroHalf: 2      207     --- 
+      0     0       16.1046    88        1.0000   ZeroHalf: 2      215     --- 
+      0     0       16.0651    88        1.0000   ZeroHalf: 2      228     --- 
+      0     0       16.0625    88        1.0000   ZeroHalf: 1      229     --- 
+      0     0       16.0384    88        1.0000   ZeroHalf: 1      234     --- 
+      0     0       16.0247    88        1.0000   ZeroHalf: 1      241     --- 
+      0     0       16.0127    87        1.0000   ZeroHalf: 1      250     --- 
+      0     0       15.9755    88        1.0000   ZeroHalf: 2      259  507.32%
+      0     0       15.9143    87        1.0000       Cuts: 2      275  507.32%
+      0     0        cutoff              1.0000        1.0000      275    0.00%
+Elapsed time = 0.18 sec. (137.10 ticks, tree = 0.00 MB, solutions = 2)
+
+Clique cuts applied:  207
+Zero-half cuts applied:  1
+Lift and project cuts applied:  1
+Gomory fractional cuts applied:  2
+
+Root node processing (before b&c):
+  Real time             =    0.18 sec. (137.11 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.18 sec. (137.11 ticks)
+Default variable names x1, x2 ... being created.
+Default row names c1, c2 ... being created.
+Tried aggregator 1 time.
+Reduced MIP has 1479 rows, 110 columns, and 3011 nonzeros.
+Reduced MIP has 110 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (3.24 ticks)
+Found incumbent of value 0.000000 after 0.00 sec. (4.06 ticks)
+Probing time = 0.00 sec. (0.35 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 1479 rows, 110 columns, and 3011 nonzeros.
+Reduced MIP has 110 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (3.24 ticks)
+Probing time = 0.00 sec. (0.35 ticks)
+Clique table members: 1478.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.01 sec. (8.75 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            0.0000       55.0000              --- 
+      0     0       39.0000   110        0.0000       39.0000      201     --- 
+      0     0       37.9491   108        0.0000       Cuts: 3      256     --- 
+      0     0       37.5338   107        0.0000      Fract: 1      284     --- 
+      0     0       37.5005   110        0.0000      Fract: 1      318     --- 
+*     0+    0                            2.0000       37.5005              --- 
+      0     2       37.5005   110        2.0000       37.0000      318     --- 
+Elapsed time = 0.13 sec. (98.45 ticks, tree = 0.00 MB, solutions = 2)
+*   680+  497                            3.0000       25.7692           758.97%
+    936   568        9.3333    50        3.0000       21.6000    15805  620.00%
+   2163  1276        4.7250    47        3.0000       11.2258    33199  274.19%
+   2397  1388       36.7654   109        3.0000       10.5263    36140  250.88%
+   2401  1389       18.1250    77        3.0000       10.5263    36495  250.88%
+   2592    70        5.8750    37        3.0000       10.5263    42167  250.88%
+   3318    51       12.3387    69        3.0000       10.5263    54696  250.88%
+
+Lift and project cuts applied:  2
+Gomory fractional cuts applied:  6
+
+Root node processing (before b&c):
+  Real time             =    0.13 sec. (97.79 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    1.54 sec. (1587.64 ticks)
+  Sync time (average)   =    0.26 sec.
+  Wait time (average)   =    0.27 sec.
+                          ------------
+Total (root+branch&cut) =    1.67 sec. (1685.43 ticks)
